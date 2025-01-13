@@ -8,16 +8,16 @@ const score = 49.5 // тестовое значение, можно изменя
 let grade;
 // your code
 if(Math.round(score) >= 0 && Math.round(score) <= 49){
-    grade ="Оценка: F.";
+    grade ='F';
 } else if (Math.round(score) >= 50 && Math.round(score) <= 69) {
-    grade ="Оценка: D.";
+    grade ='D';
 } else if (Math.round(score) >= 70 && Math.round(score) <= 79) {
-    grade ="Оценка: C.";
+    grade ='C';
 } else if (Math.round(score) >= 80 && Math.round(score) <= 89) {
-    grade ="Оценка: B.";
+    grade ='B';
 } else if (Math.round(score) >= 90 && Math.round(score) <= 100) {
-    grade ="Оценка: A.";
+    grade ='A';
 } else { 
-    grade ="Некорректное значение.";
+    grade ='Некорректное значение.';
 }
 console.log(grade);
