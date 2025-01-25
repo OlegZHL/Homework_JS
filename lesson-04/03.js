@@ -17,8 +17,8 @@ findCommonElements([1, 2, 3], [2, 3, 4]) // [2, 3]
 Подсказка: можно использовать функцию `includesElement`, которую мы написали ранее. Переписывать её не нужно, она доступна по всему проекту за счёт hoisting.
 */
 
-let array1 = [1, 2, 3, 4, 5, 6, 7];
-let array2 = [5, 6, 7];
+let array1 = [1, 2, 3];
+let array2 = [2, 3, 4];
 let sharedArray =[];
 
 function findCommonElements(ar1, ar2) {
