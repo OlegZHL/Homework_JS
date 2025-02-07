@@ -40,9 +40,8 @@ function updateGallery(gallery, titleOfTheWork, newValue) {
 
    for (key in gallery) {
       if( key === titleOfTheWork ){
-        delete gallery[key];
-        gallery[titleOfTheWork] = newValue;
-      } else if (key !== titleOfTheWork){
+        gallery[key] = newValue;
+      } else if ( key !== titleOfTheWork ){
         gallery[titleOfTheWork] = newValue;
       }
     }
