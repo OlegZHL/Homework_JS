@@ -20,9 +20,9 @@ const game = {
           game.resources[resource] += amount;
             return game.resources;
     } else {
-      return "Invalid resource";
+      console.log("Invalid resource");
     }
   }
 }
 
-console.log(game.addResource("lumber", 200));
+console.log(game.addResource("ff", 200));
